@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "alexa-sdk": "^1.0.9",
+    "massive": "^2.6.0"
+  }
+}
