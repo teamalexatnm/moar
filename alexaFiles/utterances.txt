@@ -1,0 +1,31 @@
+Increment add {num} to {item}
+Increment add {num} {item}
+Increment will you add {num} {item}
+Increment please add {num} {item}
+Increment i got {num} {item}
+Increment i got {num} more {item}
+Increment we have guests and we got {num} {item}
+Increment we got {num} {item} to make traps for unsuspecting passerby
+
+Decrement subtract {num} from {item}
+Decrement subtract {num} {item}
+Decrement will you subtract {num} {item}
+Decrement please subtract {num} {item}
+Decrement i got rid of {num} {item}
+Decrement i got rid of {num} more {item}
+Decrement remove {num} from {item}
+Decrement remove {num} {item}
+Decrement take {num} away from {item}
+Decrement take away {num} {item}
+Decrement lost {num} {item}
+Decrement we lost {num} {item}
+Decrement i ate {num} {item}
+Decrement a raccoon came along and took {num} {item}
+
+GetInventory tell me how many {item} we have
+GetInventory how many {item} do we have
+GetInventory how many {item} are left
+GetInventory how many {item} are in inventory
+GetInventory what is our stock of {item}
+GetInventory what's our stock of {item}
+GetInventory how's our stock of {item}
