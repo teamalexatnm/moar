@@ -1,8 +1,8 @@
 const Alexa = require('alexa-sdk')
 const massive = require('massive')
 
-const db =  massive.connectSync({
-  connectionString : "postgres://tdmDB42:cchrch06@firstproject.cdnajkbiayjp.us-west-2.rds.amazonaws.com:5432/firstProjectDB",
+const db = massive.connectSync({
+  connectionString : "postgres://"+process.env.dbUsername+":"+process.env.dbPassword+"@"+process.env.dbEndpoint,
 });
 
 var handlersInventory= {
