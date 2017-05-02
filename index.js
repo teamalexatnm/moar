@@ -30,11 +30,11 @@ var handlersInventory= {
   'GetInventory': function(){
     const slots = this.event.request.intent.slots;
     db.run("select quantity from inventory where productname like $1", ["%" + slots.item.value + "%"], (err,result) => {
-      const num = result.data.quantity;
       if(err){
         console.log(err)
       }
-      this.emit(':tell', "You have " + slots.num.value + " " + slots.item.value + " brother.")
+      console.log(result.data.quantity)
+      this.emit(':tell', "You have " + result.data.quantity + " " + slots.item.value + " brother.")
     });
   }
 }
