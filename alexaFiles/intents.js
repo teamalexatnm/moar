@@ -5,7 +5,7 @@
       "slots": [
         {
           "name": "item",
-          "type": "AMAZON.Food"
+          "type": "AMAZON.Food" 
         },
         {
           "name": "num",

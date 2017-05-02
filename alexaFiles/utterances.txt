@@ -29,3 +29,4 @@ GetInventory how many {item} are in inventory
 GetInventory what is our stock of {item}
 GetInventory what's our stock of {item}
 GetInventory how's our stock of {item}
+ 

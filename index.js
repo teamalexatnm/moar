@@ -15,7 +15,7 @@ var handlersInventory= {
     }); //In the line above, num and item are being passed in from the parameters of the 'Increment' function.
   }
 
-  'Decrement': function(item, num){ // Copied from Increment. Check notes above for more detailed info.
+  'Decrement': function(item, num){ // Copied from Increment. Check notes above for more detailed info. 
     db.run("update inventory set quantity = (quantity - $2) where productname = $1", [item, num], (err,result) => {
       if(err){
         console.log(err)
