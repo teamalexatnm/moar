@@ -13,7 +13,7 @@ var handlersInventory= {
       if(err){
         console.log(err)
       }
-      this.emit(':tell', "I added " + slots.num.value + " " + slots.item.value + " guys.")
+      this.emit(':tellWithCard', "I added " + slots.num.value + " " + slots.item.value + " guys.","Inventory Update", "I added " + slots.num.value + " " + slots.item.value)
     });
   },
 
@@ -23,19 +23,21 @@ var handlersInventory= {
       if(err){
         console.log(err)
       }
-      this.emit(':tell', "I subtracted " + slots.num.value + " " + slots.item.value + " guys.")
+      this.emit(':tellWithCard', "I subtracted " + slots.num.value + " " + slots.item.value + " guys.","Inventory Update", "I subtracted " + slots.num.value + " " + slots.item.value)
     });
   },
 
   'GetInventory': function(){
     const slots = this.event.request.intent.slots;
-    db.run("select quantity from inventory where productname like $1", ["%" + slots.item.value + "%"], (err,result) => {
-      if(err){
-        console.log(err)
-      }
-      console.log(result.data.quantity)
-      this.emit(':tell', "You have " + result.data.quantity + " " + slots.item.value + " brother.")
-    });
+    return dbPromise = new Promise ((resolve,reject)=>{
+      db.run("select quantity from inventory where productname like $1", ["%" + slots.item.value + "%"], (err,result) => {
+        if(err){
+          console.log(err)
+        }
+        console.log(JSON.stringify(result,null,2))
+        resolve(result[0].quantity)
+      })
+    }).then((result)=>this.emit(':tell', "You have " + result + " " + slots.item.value + " brother."))
   }
 }
 
