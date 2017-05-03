@@ -15,6 +15,7 @@ var handlersInventory= {
       }
       this.emit(':tellWithCard', "I added " + slots.num.value + " " + slots.item.value + " guys.","Inventory Update", "I added " + slots.num.value + " " + slots.item.value)
     });
+    db.run('notify "changed"');
   },
 
   'Decrement': function(){
@@ -25,6 +26,7 @@ var handlersInventory= {
       }
       this.emit(':tellWithCard', "I subtracted " + slots.num.value + " " + slots.item.value + " guys.","Inventory Update", "I subtracted " + slots.num.value + " " + slots.item.value)
     });
+    db.run('notify "changed"');
   },
 
   'GetInventory': function(){
