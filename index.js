@@ -34,7 +34,6 @@ var handlersInventory= {
         if(err){
           console.log(err)
         }
-        console.log(JSON.stringify(result,null,2))
         resolve(result[0].quantity)
       })
     }).then((result)=>this.emit(':tell', "You have " + result + " " + slots.item.value + " brother."))
