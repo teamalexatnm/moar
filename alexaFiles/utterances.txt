@@ -39,11 +39,11 @@ GetInventory what's our stock of {item}
 GetInventory how's our stock of {item}
 
 InsertItem make a new product called {item} with a quantity of {num}
-InsertItem we now sell {item}, we have {num}
-InsertItem we just got {item}, we have {num}
-InsertItem we now make {item}, we have {num}
-InsertItem make new {num}{item}
-InsertItem make new {item}{num}
+InsertItem we now sell {item} we have {num}
+InsertItem we just got {item} we have {num}
+InsertItem we now make {item} we have {num}
+InsertItem make new {num} {item}
+InsertItem make new {item} {num}
 InsertItem new product {item} quantity {num}
 InsertItem new product {item} number {num}
 InsertItem make a new row called {item} with the quantity of {num}

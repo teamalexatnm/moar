@@ -52,7 +52,7 @@
                     "type": "AMAZON.NUMBER"
                 }, {
                   "name": "password",
-                  "type": "AMAZON.COMIC"
+                  "type": "AMAZON.Comic"
                 }
             ]
         }
