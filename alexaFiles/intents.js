@@ -48,9 +48,6 @@
                     "name": "item",
                     "type": "AMAZON.Food"
                 }, {
-                    "name": "num",
-                    "type": "AMAZON.NUMBER"
-                }, {
                   "name": "password",
                   "type": "AMAZON.Comic"
                 }

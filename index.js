@@ -56,7 +56,7 @@ var handlersInventory= {
 'DeleteItem': function(){
   const slots = this.event.request.intent.slots;
   this.emit(':elicitSlot', "password", "you have requested to delete an item from the database, this requires a password. Please give me the password now")
-  if (slots.password.value.toLowerCase() === 'batman'){
+  if (slots.password.value === 'batman'){
     db.run("delete from inventory where productname like $1", ["%"+slots.item.value + "%"], (err, result) => {
       if (err){
         console.log(err);
