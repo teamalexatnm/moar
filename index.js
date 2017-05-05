@@ -52,23 +52,22 @@ var handlersInventory= {
   });
   db.run('notify "changed"');
 },
-
 'DeleteItem': function(){
   const slots = this.event.request.intent.slots;
-  this.emit(':elicitSlot', "password", "you have requested to delete an item from the database, this requires a password. Please give me the password now")
   if (slots.password.value === 'batman'){
-    db.run("delete from inventory where productname like $1", ["%"+slots.item.value + "%"], (err, result) => {
-      if (err){
-        console.log(err);
-      }
-    });
-    this.emit(':tellWithCard', "Correct, I have deleted the " + slots.item.value+ "row.")
-    db.run('notify "changed"');
+  db.run("delete from inventory where productname like",["%" + slots.item.value + "%"], (err, result) => {
+  if(err){
+    console.log(err);
   }
-  else{
-    this.emit(':tellwithCard', "I will not delete that you filthy liar");
-  }
+  this.emit(':tellWithCard', "Password Correct, I deleted the " + slots.item.value + " row, those poor " + slot.item.value, "Inventory Update", "I removed the product " + slots.item.value)
+});
+db.run('notify "changed"');
 }
+else {
+  this.emit(':tellWithCard', "The password is wrong, I will not delete that you filthy liar!", "Inventory Update", "Attempted row delete, password incorrect")
+}
+}
+
 }
 
 exports.handler = function(event,context,callback){

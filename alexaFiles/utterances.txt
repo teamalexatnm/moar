@@ -48,11 +48,11 @@ InsertItem new product {item} quantity {num}
 InsertItem new product {item} number {num}
 InsertItem make a new row called {item} with the quantity of {num}
 
-DeleteItem delete {item}
-DeleteItem delete the {item} row
-DeleteItem We no longer sell {item}
-DeleteItem We no longer sell {item} remove it
-DeleteItem Remove the {item} row
-DeleteItem delete the row of {item}
-DeleteItem we no longer need the {item} row
-DeleteItem we no longer need the row of {item}
+DeleteItem delete {item} password {password}
+DeleteItem delete the {item} row password {password}
+DeleteItem We no longer sell {item} password {password}
+DeleteItem We no longer sell {item} remove it password {password}
+DeleteItem Remove the {item} row password {password}
+DeleteItem delete the row of {item} password {password}
+DeleteItem we no longer need the {item} row password {password}
+DeleteItem we no longer need the row of {item} password {password}
