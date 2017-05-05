@@ -55,11 +55,11 @@ var handlersInventory= {
 'DeleteItem': function(){
   const slots = this.event.request.intent.slots;
   if (slots.password.value === 'batman'){
-  db.run("delete from inventory where productname like",["%" + slots.item.value + "%"], (err, result) => {
+  db.run("delete from inventory where productname like $1",["%" + slots.item.value + "%"], (err, result) => {
   if(err){
     console.log(err);
   }
-  this.emit(':tellWithCard', "Password Correct, I deleted the " + slots.item.value + " row, those poor " + slot.item.value, "Inventory Update", "I removed the product " + slots.item.value)
+  this.emit(':tellWithCard', "Password Correct, I deleted the " + slots.item.value + " row, those poor " + slots.item.value, "Inventory Update", "I removed the product " + slots.item.value)
 });
 db.run('notify "changed"');
 }
