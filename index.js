@@ -48,7 +48,7 @@ var handlersInventory= {
     if(err){
       console.log(err);
     }
-    this.emit(':tellWithCard', "I added the product "+ slots.item.value + "with a quantity of "+ slots.num.value "just for you sexy lads.", "Inventory Update", "I created the product"+ slots.item.value+ "with a quantity of"+ slots.num.value)
+    this.emit(':tellWithCard', "I added the product " + slots.item.value + " with a quantity of " + slots.num.value + " just for you sexy lads.", "Inventory Update", "I created the product " + slots.item.value + " with a quantity of " + slots.num.value)
   });
   db.run('notify "changed"');
 },
