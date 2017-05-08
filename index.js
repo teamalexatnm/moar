@@ -64,7 +64,7 @@ var handlersInventory= {
 db.run('notify "changed"');
 }
 else {
-  this.emit(':tellWithCard', "The password is wrong, I will not delete that you filthy liar!", "Inventory Update", "Attempted row delete, password incorrect")
+  this.emit(':tellWithCard', "Unacceptable! I will not delete that you filthy liar!", "Inventory Update", "Attempted row delete, password incorrect")
 }
 }
 
