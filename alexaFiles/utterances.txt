@@ -31,6 +31,7 @@ Decrement there are {num} less {item}
 Decrement i used {num} {item}
 
 GetInventory tell me how many {item} we have
+GetInventory how much {item} do we have
 GetInventory how many {item} do we have
 GetInventory how many {item} are left
 GetInventory how many {item} are in inventory
