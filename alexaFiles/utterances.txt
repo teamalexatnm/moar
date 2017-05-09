@@ -11,6 +11,7 @@ Increment we have guests and we got {num} {item}
 Increment we got {num} {item} to make traps for unsuspecting passerby
 Increment I added {num} {item}
 Increment there are {num} more {item}
+Increment add {num} more {item}
 
 Decrement subtract {num} from {item}
 Decrement subtract {num} {item}
@@ -38,6 +39,10 @@ GetInventory how many {item} are in inventory
 GetInventory what is our stock of {item}
 GetInventory what's our stock of {item}
 GetInventory how's our stock of {item}
+GetInventory do we have any {item}
+GetInventory do we have enough {item}
+GetInventory do we have enough of {item}
+GetInventory I want to know how much {item} we have
 
 InsertItem make a new product called {item} with a quantity of {num}
 InsertItem we now sell {item} we have {num}
@@ -48,6 +53,11 @@ InsertItem make new {item} {num}
 InsertItem new product {item} quantity {num}
 InsertItem new product {item} number {num}
 InsertItem make a new row called {item} with the quantity of {num}
+InsertItem add new {item} with {num} stock
+InsertItem make new product called {item} with a quantity of {num}
+InsertItem new product {item} with quantity {num}
+InsertItem new product {item} with a quantity of {num}
+
 
 DeleteItem delete {item} password {password}
 DeleteItem delete the {item} row password {password}
@@ -57,3 +67,6 @@ DeleteItem Remove the {item} row password {password}
 DeleteItem delete the row of {item} password {password}
 DeleteItem we no longer need the {item} row password {password}
 DeleteItem we no longer need the row of {item} password {password}
+DeleteItem get rid of all {item} password {password}
+DeleteItem get rid of row {item} password {password}
+DeleteItem get rid of {item} row password {password}
