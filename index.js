@@ -43,7 +43,7 @@ var handlersInventory= {
 
   'InsertItem': function(){
     const slots = this.event.request.intent.slots;
-    db.run("insert into inventory (productname, quantity) values ($1, $2)",[slots.item.value, slots.num.value], (err, result) => {
+    db.run("insert into inventory (productname, quantity) values ($1, $2)",[slots.item.value.toLowerCase(), slots.num.value], (err, result) => {
     if(err){
       console.log(err);
     }
