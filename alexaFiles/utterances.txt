@@ -166,6 +166,14 @@ InsertItem to put {item} in inventory with quantity {num}
 InsertItem to put {item} in inventory with starting quantity {num}
 InsertItem to put new item {item} in inventory with quantity {num}
 InsertItem to put new item {item} in inventory with starting quantity {num}
+InsertItem put a new product called {item} in inventory with a starting quantity of {num}
+InsertItem put a product called {item} in inventory with a starting quantity of {num}
+InsertItem put a new product called {item} in inventory with a quantity of {num}
+InsertItem put a product called {item} in inventory with a quantity of {num}
+InsertItem to put a new product called {item} in inventory with a starting quantity of {num}
+InsertItem to put a product called {item} in inventory with a starting quantity of {num}
+InsertItem to put a new product called {item} in inventory with a quantity of {num}
+InsertItem to put a product called {item} in inventory with a quantity of {num}
 
 
 DeleteItem delete the row of {item} password {password}
