@@ -153,15 +153,15 @@ InsertItem make a new row called {item} with the quantity of {num}
 InsertItem make new product called {item} with a quantity of {num}
 InsertItem new product {item} with quantity {num}
 InsertItem new product {item} with a quantity of {num}
-InsertItem to track new product (item) with starting quantity of {num}
-InsertItem to track new item (item) with starting quantity of {num}
-InsertItem to track new inventory item (item) with starting quantity of {num}
-InsertItem to track new product (item) with quantity of {num}
-InsertItem to start tracking new item (item) with starting quantity of {num}
-InsertItem to start tracking new product (item) with starting quantity of {num}
-InsertItem start tracking new product (item) with starting quantity of {num}
-InsertItem start tracking new item (item) with starting quantity of {num}
-InsertItem start tracking new inventory item (item) with starting quantity of {num}
+InsertItem to track new product {item} with starting quantity of {num}
+InsertItem to track new item {item} with starting quantity of {num}
+InsertItem to track new inventory item {item} with starting quantity of {num}
+InsertItem to track new product {item} with quantity of {num}
+InsertItem to start tracking new item {item} with starting quantity of {num}
+InsertItem to start tracking new product {item} with starting quantity of {num}
+InsertItem start tracking new product {item} with starting quantity of {num}
+InsertItem start tracking new item {item} with starting quantity of {num}
+InsertItem start tracking new inventory item {item} with starting quantity of {num}
 InsertItem to put {item} in inventory with quantity {num}
 InsertItem to put {item} in inventory with starting quantity {num}
 InsertItem to put new item {item} in inventory with quantity {num}
