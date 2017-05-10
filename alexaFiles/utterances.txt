@@ -6,6 +6,12 @@ Increment add {num} {item}
 Increment to add number {num} to {item}
 Increment to add number {num} {item}
 Increment to add {num} {item}
+Increment to add {num} to {item}
+Increment to add {num} more {item}
+Increment to add {num} more to {item}
+Increment to have {num} more {item}
+Increment add {num} more {item}
+Increment add {num} more to {item}
 Increment will you add {num} {item}
 Increment please add {num} {item}
 Increment will you add {num} to {item}
@@ -17,8 +23,6 @@ Increment we got {num} {item} to make traps for unsuspecting passerby
 Increment I added {num} {item}
 Increment I added {num} to {item}
 Increment there are {num} more {item}
-Increment add {num} more {item}
-Increment add {num} more to {item}
 Increment there are {num} more {item}
 Increment I got {num} more {item}
 Increment I have {num} more {item}
@@ -26,6 +30,11 @@ Increment to have {num} more {item}
 Increment with {num} more {item}
 Increment has {num} more {item}
 Increment it has {num} more {item}
+Increment got {num} more {item}
+Increment it has {num} more {item}
+Increment there are {num} more {item}
+Increment there is {num} more {item}
+Increment there's {num} more {item}
 
 Decrement subtract {num} from {item}
 Decrement subtract {num} {item}
@@ -33,6 +42,7 @@ Decrement to subtract {num} from {item}
 Decrement to subtract {num} {item}
 Decrement to take away {num} from {item}
 Decrement to take away {num} {item}
+Increment to have {num} less {item}
 Decrement will you subtract {num} {item}
 Decrement will you subtract {num} from {item}
 Decrement please subtract {num} {item}
@@ -51,12 +61,18 @@ Decrement i ate {num} {item}
 Decrement a raccoon came along and took {num} {item}
 Decrement there are {num} less {item}
 Decrement i used {num} {item}
-Increment I got {num} less {item}
-Increment I have {num} less {item}
-Increment to have {num} less {item}
-Increment with {num} less {item}
-Increment has {num} less {item}
-Increment it has {num} less {item}
+Decrement I got {num} less {item}
+Decrement I have {num} less {item}
+Decrement we have {num} less {item}
+Decrement to have {num} less {item}
+Decrement with {num} less {item}
+Decrement has {num} less {item}
+Decrement it has {num} less {item}
+Decrement got {num} less {item}
+Decrement it has {num} less {item}
+Decrement there are {num} less {item}
+Decrement there is {num} less {item}
+Decrement there's {num} less {item}
 
 GetInventory tell me how many {item} we have
 GetInventory how much {item} do we have
