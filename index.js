@@ -13,7 +13,7 @@ var handlersInventory= {
       if(err){
         console.log(err)
       }
-      this.emit(':tellWithCard', "I added " + slots.num.value + " " + slots.item.value + " guys.","Inventory Update", "I added " + slots.num.value + " " + slots.item.value)
+      this.emit(':tellWithCard', slots.num.value + " " + slots.item.value + " added","Inventory Update", "I added " + slots.num.value + " " + slots.item.value)
     });
     db.run('notify "changed"');
   },
@@ -24,7 +24,7 @@ var handlersInventory= {
       if(err){
         console.log(err)
       }
-      this.emit(':tellWithCard', "I subtracted " + slots.num.value + " " + slots.item.value + " guys.","Inventory Update", "I subtracted " + slots.num.value + " " + slots.item.value)
+      this.emit(':tellWithCard', slots.num.value + " " + slots.item.value + " subtracted.","Inventory Update", "I subtracted " + slots.num.value + " " + slots.item.value)
     });
     db.run('notify "changed"');
   },
@@ -38,7 +38,7 @@ var handlersInventory= {
         }
         resolve(result[0].quantity)
       })
-    }).then((result)=>this.emit(':tell', "You have " + result + " " + slots.item.value + " brother."))
+    }).then((result)=>this.emit(':tell', "You have " + result + " " + slots.item.value))
   },
 
   'InsertItem': function(){
@@ -47,7 +47,7 @@ var handlersInventory= {
     if(err){
       console.log(err);
     }
-    this.emit(':tellWithCard', "I added the product " + slots.item.value + " with a quantity of " + slots.num.value + " just for you sexy lads.", "Inventory Update", "I created the product " + slots.item.value + " with a quantity of " + slots.num.value)
+    this.emit(':tellWithCard', "Product " + slots.item.value + " added with quantity" + slots.num.value, "Inventory Update", "I created the product " + slots.item.value + " with a quantity of " + slots.num.value)
   });
   db.run('notify "changed"');
 },
@@ -58,12 +58,12 @@ var handlersInventory= {
   if(err){
     console.log(err);
   }
-  this.emit(':tellWithCard', "Password Correct, I deleted the " + slots.item.value + " row, those poor " + slots.item.value, "Inventory Update", "I removed the product " + slots.item.value)
+  this.emit(':tellWithCard', "Password Correct, " + slots.item.value + " removed", "Inventory Update", "I removed the product " + slots.item.value)
 });
 db.run('notify "changed"');
 }
 else {
-  this.emit(':tellWithCard', "Unacceptable! I will not delete that you filthy liar!", "Inventory Update", "Attempted row delete, password incorrect")
+  this.emit(':tellWithCard', "Denied. Password Incorrect", "Inventory Update", "Attempted row delete, password incorrect")
 }
 }
 

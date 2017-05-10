@@ -42,7 +42,7 @@ Decrement to subtract {num} from {item}
 Decrement to subtract {num} {item}
 Decrement to take away {num} from {item}
 Decrement to take away {num} {item}
-Increment to have {num} less {item}
+Decrement to have {num} less {item}
 Decrement will you subtract {num} {item}
 Decrement will you subtract {num} from {item}
 Decrement please subtract {num} {item}
