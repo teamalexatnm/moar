@@ -3,21 +3,42 @@ Increment to {item} add {num}
 Increment add number {num} to {item}
 Increment add number {num} {item}
 Increment add {num} {item}
+Increment to add number {num} to {item}
+Increment to add number {num} {item}
+Increment to add {num} {item}
 Increment will you add {num} {item}
 Increment please add {num} {item}
+Increment will you add {num} to {item}
+Increment please add {num} to {item}
 Increment i got {num} {item}
 Increment i got {num} more {item}
 Increment we have guests and we got {num} {item}
 Increment we got {num} {item} to make traps for unsuspecting passerby
 Increment I added {num} {item}
+Increment I added {num} to {item}
 Increment there are {num} more {item}
 Increment add {num} more {item}
+Increment add {num} more to {item}
+Increment there are {num} more {item}
+Increment I got {num} more {item}
+Increment I have {num} more {item}
+Increment to have {num} more {item}
+Increment with {num} more {item}
+Increment has {num} more {item}
+Increment it has {num} more {item}
 
 Decrement subtract {num} from {item}
 Decrement subtract {num} {item}
+Decrement to subtract {num} from {item}
+Decrement to subtract {num} {item}
+Decrement to take away {num} from {item}
+Decrement to take away {num} {item}
 Decrement will you subtract {num} {item}
+Decrement will you subtract {num} from {item}
 Decrement please subtract {num} {item}
+Decrement please subtract {num} from {item}
 Decrement i got rid of {num} {item}
+Decrement i got rid of {num} from {item}
 Decrement i got rid of {num} more {item}
 Decrement remove {num} from {item}
 Decrement remove {num} {item}
@@ -30,6 +51,12 @@ Decrement i ate {num} {item}
 Decrement a raccoon came along and took {num} {item}
 Decrement there are {num} less {item}
 Decrement i used {num} {item}
+Increment I got {num} less {item}
+Increment I have {num} less {item}
+Increment to have {num} less {item}
+Increment with {num} less {item}
+Increment has {num} less {item}
+Increment it has {num} less {item}
 
 GetInventory tell me how many {item} we have
 GetInventory how much {item} do we have
@@ -43,6 +70,8 @@ GetInventory do we have any {item}
 GetInventory do we have enough {item}
 GetInventory do we have enough of {item}
 GetInventory I want to know how much {item} we have
+GetInventory the quantity of {item}
+GetInventory what is the quantity of {item}
 
 InsertItem make a new product called {item} with a quantity of {num}
 InsertItem we now sell {item} we have {num}
