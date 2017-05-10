@@ -27,6 +27,7 @@ Increment there are {num} more {item}
 Increment I got {num} more {item}
 Increment I have {num} more {item}
 Increment to have {num} more {item}
+Increment we have {num} more {item}
 Increment with {num} more {item}
 Increment has {num} more {item}
 Increment it has {num} more {item}
@@ -75,43 +76,160 @@ Decrement there is {num} less {item}
 Decrement there's {num} less {item}
 
 GetInventory tell me how many {item} we have
+GetInventory tell me the number of {item} we have
+GetInventory to tell me how many {item} we have
+GetInventory to tell me the number of {item} we have
+GetInventory to report the number of {item}
+GetInventory report the number of {item}
 GetInventory how much {item} do we have
 GetInventory how many {item} do we have
+GetInventory how much {item} we have
+GetInventory how many {item} we have
 GetInventory how many {item} are left
+GetInventory how many {item} there are
+GetInventory tell me how many {item} we have in inventory
+GetInventory tell me the number of {item} we have in inventory
+GetInventory to tell me how many {item} we have in inventory
+GetInventory to tell me the number of {item} we have in inventory
+GetInventory to report the number of {item} in inventory
+GetInventory report the number of {item} in inventory
+GetInventory how much {item} do we have in inventory
+GetInventory how many {item} do we have in inventory
+GetInventory how much {item} we have in inventory
+GetInventory how many {item} we have in inventory
+GetInventory how many {item} are left in inventory
+GetInventory how many {item} there are in inventory
 GetInventory how many {item} are in inventory
 GetInventory what is our stock of {item}
 GetInventory what's our stock of {item}
+GetInventory for our stock of {item}
+GetInventory for our stock of {item} in inventory
+GetInventory for the stock of {item}
+GetInventory for the stock of {item} in inventory
+GetInventory for total {item}
+GetInventory for the total {item}
+GetInventory for the total {item} in inventory
+GetInventory for total {item} in inventory
 GetInventory how's our stock of {item}
 GetInventory do we have any {item}
 GetInventory do we have enough {item}
 GetInventory do we have enough of {item}
+GetInventory if we have any {item}
+GetInventory if we have enough {item}
+GetInventory if we have enough of {item}
+GetInventory if there are any {item}
+GetInventory if there are any {item} left
+GetInventory if there is any {item}
+GetInventory if there is any {item} left
+GetInventory if there are any {item} in inventory
+GetInventory if there is any {item} in inventory
+GetInventory what is our inventory of {item}
 GetInventory I want to know how much {item} we have
 GetInventory the quantity of {item}
 GetInventory what is the quantity of {item}
 
-InsertItem make a new product called {item} with a quantity of {num}
+
 InsertItem we now sell {item} we have {num}
 InsertItem we just got {item} we have {num}
 InsertItem we now make {item} we have {num}
-InsertItem make new {num} {item}
-InsertItem make new {item} {num}
+InsertItem we have {num} {item} which is a new product
+InsertItem we have {num} {item} which is a new inventory item
+InsertItem we have {num} of new product {item}
+InsertItem we have {num} of new inventory item {item}
+InsertItem we have {num} new inventory item {item}
+InsertItem we have {num} new product {item}
+InsertItem create {num} new {item} in inventory
+InsertItem create new product {item} in inventory with quantity {num}
+InsertItem create new product {item} in inventory with starting quantity {num}
+InsertItem create new inventory item {item} with quantity {num}
+InsertItem create new inventory item {item} with starting quantity {num}
+InsertItem make new inventory item {item} with quantity {num}
+InsertItem make new inventory item {item} with starting quantity {num}
+InsertItem make a new product called {item} with a quantity of {num}
+InsertItem make a new product called {item} with a starting quantity of {num}
 InsertItem new product {item} quantity {num}
 InsertItem new product {item} number {num}
 InsertItem make a new row called {item} with the quantity of {num}
-InsertItem add new {item} with {num} stock
 InsertItem make new product called {item} with a quantity of {num}
 InsertItem new product {item} with quantity {num}
 InsertItem new product {item} with a quantity of {num}
+InsertItem to track new product (item) with starting quantity of {num}
+InsertItem to track new item (item) with starting quantity of {num}
+InsertItem to track new inventory item (item) with starting quantity of {num}
+InsertItem to track new product (item) with quantity of {num}
+InsertItem to start tracking new item (item) with starting quantity of {num}
+InsertItem to start tracking new product (item) with starting quantity of {num}
+InsertItem start tracking new product (item) with starting quantity of {num}
+InsertItem start tracking new item (item) with starting quantity of {num}
+InsertItem start tracking new inventory item (item) with starting quantity of {num}
+InsertItem to put {item} in inventory with quantity {num}
+InsertItem to put {item} in inventory with starting quantity {num}
+InsertItem to put new item {item} in inventory with quantity {num}
+InsertItem to put new item {item} in inventory with starting quantity {num}
 
 
-DeleteItem delete {item} password {password}
-DeleteItem delete the {item} row password {password}
-DeleteItem We no longer sell {item} password {password}
-DeleteItem We no longer sell {item} remove it password {password}
-DeleteItem Remove the {item} row password {password}
 DeleteItem delete the row of {item} password {password}
+DeleteItem delete the row of {item} {password}
+DeleteItem delete the row of {item} password {password} from inventory
+DeleteItem to delete the row of {item} password {password}
+DeleteItem to delete the row of {item} {password}
+DeleteItem delete {item} password {password}
+DeleteItem delete {item} {password}
+DeleteItem to delete {item} password {password}
+DeleteItem to delete {item} {password}
+DeleteItem {password} delete {item}
+DeleteItem delete the {item} row password {password}
+DeleteItem delete {item} password {password} from inventory
+DeleteItem delete {item} from inventory password {password}
+DeleteItem delete {item} {password}
+DeleteItem delete {item} {password} from inventory
+DeleteItem to delete {item} password {password}
+DeleteItem to delete {item} password {password} from inventory
+DeleteItem to delete {item} {password}
+DeleteItem to delete {item} from inventory {password}
+DeleteItem {password} delete {item}
+DeleteItem {password} delete {item} from inventory
+DeleteItem delete the {item} row password {password}
+DeleteItem delete the {item} row password {password} from inventory
+DeleteItem delete the {item} row from inventory password {password}
+DeleteItem remove the {item} row password {password}
+DeleteItem remove the {item} row password {password} from inventory
+DeleteItem remove the {item} row from inventory password {password}
+DeleteItem remove {item} password {password}
+DeleteItem remove {item} password {password} from inventory
+DeleteItem remove {item} from inventory password {password}
+DeleteItem to remove the {item} row password {password}
+DeleteItem to remove the {item} row password {password} from inventory
+DeleteItem to remove the {item} row from inventory password {password}
+DeleteItem to remove {item} password {password}
+DeleteItem to remove {item} password {password} from inventory
+DeleteItem to remove {item} from inventory password {password}
+DeleteItem remove the {item} row {password}
+DeleteItem remove {item} {password}
+DeleteItem remove {item} {password} from inventory
+DeleteItem remove {item} from inventory {password}
+DeleteItem to remove the {item} row {password}
+DeleteItem to remove the {item} row {password} from inventory
+DeleteItem to remove the {item} row from inventory {password}
+DeleteItem to remove {item} {password}
+DeleteItem to remove {item} {password} from inventory
+DeleteItem to remove {item} from inventory {password}
+DeleteItem We no longer sell {item} password {password}
+DeleteItem We no longer sell {item} {password}
+DeleteItem We no longer sell {item} remove it password {password}
+DeleteItem We no longer sell {item} remove it {password}
 DeleteItem we no longer need the {item} row password {password}
 DeleteItem we no longer need the row of {item} password {password}
+DeleteItem We no longer need {item} {password}
 DeleteItem get rid of all {item} password {password}
+DeleteItem get rid of all {item} {password}
+DeleteItem to get rid of all {item} password {password}
+DeleteItem to get rid of all {item} {password}
 DeleteItem get rid of row {item} password {password}
 DeleteItem get rid of {item} row password {password}
+DeleteItem take {item} out of inventory {password}
+DeleteItem to take {item} out of inventory {password}
+DeleteItem forget about {item} password {password}
+DeleteItem forget about {item} {password}
+DeleteItem to forget about {item} password {password}
+DeleteItem to forget about {item} {password}
