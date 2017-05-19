@@ -67,7 +67,7 @@ Decrement I used {num} {item}
 Decrement I took {num} {item}
 Decrement I just took {num} {item} from inventory
 Decrement I'm taking {num} {item}
-Decrement I'm taking {num} {item} from inventory 
+Decrement I'm taking {num} {item} from inventory
 Decrement we used {num} {item}
 Decrement I got {num} less {item}
 Decrement I have {num} less {item}
@@ -169,6 +169,8 @@ InsertItem to start tracking new product {item} with starting quantity of {num}
 InsertItem start tracking new product {item} with starting quantity of {num}
 InsertItem start tracking new item {item} with starting quantity of {num}
 InsertItem start tracking new inventory item {item} with starting quantity of {num}
+InsertItem start tracking {item} we have {num} in inventory
+InsertItem start tracking {item} we have {num}
 InsertItem to put {item} in inventory with quantity {num}
 InsertItem to put {item} in inventory with starting quantity {num}
 InsertItem to put new item {item} in inventory with quantity {num}
