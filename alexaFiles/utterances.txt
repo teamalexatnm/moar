@@ -61,7 +61,14 @@ Decrement we lost {num} {item}
 Decrement i ate {num} {item}
 Decrement a raccoon came along and took {num} {item}
 Decrement there are {num} less {item}
-Decrement i used {num} {item}
+Decrement I'm using {num} {item}
+Decrement I just used {num} {item}
+Decrement I used {num} {item}
+Decrement I took {num} {item}
+Decrement I just took {num} {item} from inventory
+Decrement I'm taking {num} {item}
+Decrement I'm taking {num} {item} from inventory 
+Decrement we used {num} {item}
 Decrement I got {num} less {item}
 Decrement I have {num} less {item}
 Decrement we have {num} less {item}
